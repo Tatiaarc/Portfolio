@@ -1,7 +1,73 @@
-import data from "portfolio/assets/data/projects.json" assert { type: "json" };
-import dataExperiments from "portfolio/assets/data/experiments.json" assert { type: "json" };
+// import data from "portfolio/assets/data/projects.json" assert { type: "json" };
+// import dataExperiments from "portfolio/assets/data/experiments.json" assert { type: "json" };
+data = [
+  {
+    id: 1,
+    name: "My Car App",
+    description:
+      "This is an app about my car collection. Includes a CRUD function.",
+    url: "url",
+    github: "github",
+    photo: "./assets/images/my-car-collection-photo.png",
+    techonology: ["React", "Node.js"],
+    order: 1,
+  },
+  {
+    id: 2,
+    name: "Space Tourism",
+    description:
+      "App about space exploration. You can chose the destination, crew and technology",
+    url: "https://tatiaarc.github.io/space-tourism-app/",
+    github: "https://github.com/Tatiaarc/space-tourism-app",
+    photo: "./assets/images/space-tourism-photo.png",
+    techonology: ["Javascript", "React"],
+    order: 2,
+  },
+  {
+    id: 3,
+    name: "Invoice App",
+    description:
+      "App about invoice creation, editing, and listing. You can change the status.",
+    url: "url",
+    github: "github",
+    photo: "./assets/images/invoice-app-photo.png",
+    techonology: ["React", "Node.js"],
+    order: 3,
+  },
+  {
+    id: 4,
+    name: "Kanban",
+    description: "App about a Kanban board",
+    url: "url",
+    github: "github",
+    photo: "./assets/images/kanban-app-photo.png",
+    techonology: ["React", "Node.js"],
+    order: 3,
+  },
+];
 
-// console.log(dataExperiments);
+dataExperiments = [
+  {
+    id: 1,
+    name: "Calculator App",
+    description: "This app is a calculator",
+    url: "url",
+    github: "github",
+    photo: "./assets/images/calculator-app.png",
+    techonology: ["Javascript"],
+    order: 1,
+  },
+  {
+    id: 2,
+    name: "To do List",
+    description: "This app is a to do list",
+    url: "https://tatiaarc.github.io/space-tourism-app/",
+    github: "https://github.com/Tatiaarc/space-tourism-app",
+    photo: "./assets/images/calculator-app.png",
+    techonology: ["Javascript"],
+    order: 2,
+  },
+];
 
 var div = "";
 var divExperiments = "";
