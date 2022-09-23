@@ -1,6 +1,6 @@
 // import data from "portfolio/assets/data/projects.json" assert { type: "json" };
 // import dataExperiments from "portfolio/assets/data/experiments.json" assert { type: "json" };
-data = [
+const data = [
   {
     id: 1,
     name: "My Car App",
@@ -46,7 +46,7 @@ data = [
   },
 ];
 
-dataExperiments = [
+const dataExperiments = [
   {
     id: 1,
     name: "Calculator App",
