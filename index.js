@@ -1,5 +1,5 @@
-import data from "./assets/data/projects.json" assert { type: "json" };
-import dataExperiments from "./assets/data/experiments.json" assert { type: "json" };
+import data from "portfolio/assets/data/projects.json" assert { type: "json" };
+import dataExperiments from "portfolio/assets/data/experiments.json" assert { type: "json" };
 
 // console.log(dataExperiments);
 
